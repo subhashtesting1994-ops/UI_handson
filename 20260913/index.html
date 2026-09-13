@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Learning Progress Profile</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header>
+            <h1>Learning Progress Profile</h1>
+            <nav>
+                <ul class="unordered-list">
+                    <li><a href="#progress">Progress</a></li>
+                    <li><a href="#progress-table">Course progress table</a></li>
+                    <li><a href="#goals">Goals</a></li>
+                    <li><a href="#feedback-form">Contact/feedback form</a></li>
+                </ul>
+            </nav>
+            <p>Below is my Learning progress profile. Currently, i am learning basic web development languages-HTML,CSS and JavaScript. Once completed, i will starting with React Js.</p>
+        </header>
+        <main>
+            <section id="progress">
+                <h2>Progress</h2>
+                <p>Below are the topics which i have currently progressed in the HTML and CSS</p>
+                <ul class="unordered-list">
+                    <li>HTML
+                        <ol type="a" class="ordered-list">
+                            <li>Level-1</li>
+                            <li>Level-2</li>
+                            <li>Level-3</li>
+                            <li>Level-4</li>
+                            <li>Level-5</li>
+                        </ol>
+                    </li>
+                    <li>CSS
+                        <ol type="a" class="ordered-list">
+                            <li>Level-1</li>
+                            <li>Level-2</li>
+                        </ol>
+                    </li>
+                </ul>
+            </section>
+            <section id="progress-table">
+                <h2>Course progress table</h2>
+                <table>
+                    <caption>Current Progress</caption>
+                    <tr>
+                        <th>Topic</th>
+                        <th>Level</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="5">HTML</th>
+                        <td>Level-1</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>Level-2</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>Level-3</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>Level-4</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>Level-5</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="3">CSS</th>
+                        <td>Level-1</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>Level-2</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>Level-3</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <th>JavaScript</th>
+                        <td colspan="2">Not Started the hands-on yet</td>
+                    </tr>
+                    <tr>
+                        <th>React JS</th>
+                        <td colspan="2">Not Started the hands-on yet</td>
+                    </tr>
+                </table>
+            </section>
+            <section id="goals">
+                <h2>Goals</h2>
+                <p>Currently, i am progressing through HTML and CSS. I currently dont know when chatgpt is going to bring in Javascript. Once i have completed around 50% of the Javascript, i will start with React JS tutorial which is available in the UI training</p>
+            </section>
+            <section id="feedback-form">
+                <h2>Contact/feedback form</h2>
+                <form action="#" method="post">
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="emailid">Email</label>
+                    <input type="email" id="emailid" name="emailid"><br>
+                    <p>Topics interested in:</p>
+                    <label for="html">HTML</label>
+                    <input type="radio" id="html" name="topicinterest" value="HTML">
+                    <label for="css">CSS</label>
+                    <input type="radio" id="css" name="topicinterest" value="CSS">
+                    <label for="javascript">JavaScript</label>
+                    <input type="radio" id="javascript" name="topicinterest" value="JavaScript"><br>
+                    <p>Preferred Learning Mode</p>
+                    <label for="handson">Hands-On</label>
+                    <input type="checkbox" name="preflearn" id="handson" value="Hands-On">
+                    <label for="video">Video</label>
+                    <input type="checkbox" name="preflearn" id="video" value="Video"><br>
+                    <p>Other courses planned</p>
+                    <select id="othercourses" name="othercourses">
+                        <option value="nodejs">Node JS</option>
+                        <option value="python">Python</option>
+                    </select><br>
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments" rows="3" cols="25"></textarea><br>
+                    <input type="submit" value="Click to Submit">
+                </form>
+            </section>
+            <section id="ui-training">
+                <article>
+                    <h3>UI training</h3>
+                    <p>We are currently following the below course for our UI training</p>
+                    <p><a href="https://www.youtube.com/channel/UC7uzuZJIYzcxV9JJ1yAtHHg">Link</a>-Complete Coding by Prashant</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cpoXLj24BDY?si=JcTlxAKnvzmimIhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </article>
+            </section>
+            <aside id="nodejslinkpage">
+                <h3>Node JS</h3>
+                Below is NodeJs course offered by Prashant sir.
+                <p>Complete NodeJS + ExpressJS + MongoDB 🚀🔥 Course</p>
+                <a id="nodejslink" href="https://www.youtube.com/playlist?list=PL78RhpUUKSwfeSOOwfE9x6l5jTjn5LbY3">Link</a>
+            </aside>
+        </main>
+        <footer>
+            @2026. Best viewed on the latest version of Microsoft Edge, Chrome or Safari.
+        </footer>
+    </body>
+</html>
